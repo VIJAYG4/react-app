@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header
-          title="Love you a Lunch"
+          title="Restaurants List"
           tagline="Find the perfect spot for your next weekend lunch."
         />
         <SearchForm onFormSubmit={this.onFormSubmit} />
